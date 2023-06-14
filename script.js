@@ -78,6 +78,7 @@ function startGame() {
         if(playerPoints > 21){
             pcCounter++;
             document.querySelector('.winner').textContent = "Computer  Win";
+            exit();
         }
       document.querySelector('.hit-card').textContent =hitNumber;
         document.querySelector('.sum-player').textContent = playerPoints;
